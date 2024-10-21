@@ -1,0 +1,1 @@
+(()=>{"use strict";document.addEventListener("DOMContentLoaded",(()=>{const e=document.getElementById("modal");"true"===localStorage.getItem("isShown")||e.classList.add("modal--visible"),document.getElementById("modal__button").addEventListener("click",(function(){e.classList.replace("modal--visible","modal--hidden"),localStorage.setItem("isShown","true")}))}))})();
